@@ -40,6 +40,24 @@
     </header>
 
 
+    <!-- ##############  -->
+    <!-- Home  -->
+    <!-- ##############  -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-4">
+                    <h5>Commencez vos achats en ligne quotidiens</h5>
+                    <h2>Restez chez vous & nous vous livrerons vos besoins quotidiens</h2>
+                    <a href="#" class="btn">Achetez </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <script src="/assets/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/Js/app.js"></script>
