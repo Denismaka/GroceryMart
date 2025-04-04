@@ -56,6 +56,21 @@
     </section>
 
 
+    <!-- ############## -->
+    <!-- About-->
+    <!-- ############## -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  mt-4">
+                    <div class="thumb">
+                        <a rel="nofollow" href="http://youtube.com" class="play-btn"><i class="fa fa-play"></i></a>
+                        <img src="assets/images/about.webp" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="/assets/scrollreveal/dist/scrollreveal.min.js"></script>
