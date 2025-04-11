@@ -17,7 +17,7 @@
   background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--blue);
+  background-color: var(--white);
 }
 body {
   background-color: var(--blue);
@@ -29,7 +29,7 @@ body {
   text-align: center;
 }
 .section-heading h2 {
-  color: var(--blue);
+  color: var(--white);
   font-size: 2.2rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -38,11 +38,11 @@ body {
 .section-heading::before {
   content: "";
   position: absolute;
-  top: 50px;
-  left: 47.5rem;
-  width: 220px;
-  height: 5px;
-  background-color: var(--blue_2);
+  top: 20px;
+  left: 30rem;
+  width: 100px;
+  height: 3px;
+  background-color: var(--red);
   transform: translateX(-50%);
 }
 .section-heading::after {
@@ -275,3 +275,7 @@ header.sticky {
 #about .container .row .col-md-6 .row .col-md-4 span {
   color: var(--red);
 }
+
+/* ############## */
+/* Products */
+/* ############## */
