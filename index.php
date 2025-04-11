@@ -69,40 +69,117 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="row">
-                  <div class="col-md-3 text-white">
-                        <h6 class="text-uppercase">vegetals</h6>
+                    <div class="row">
+                        <div class="col-md-3 text-white">
+                            <h6 class="text-uppercase">vegetals</h6>
+                        </div>
+                        <div class="col-md-3 text-white">
+                            <h6 class="text-uppercase">meats & seafood</h6>
+                        </div>
+                        <div class="col-md-3 text-white">
+                            <h6 class="text-uppercase">bakery</h6>
+                        </div>
+                        <div class="col-md-3 text-white">
+                            <h6 class="text-uppercase">beverages</h6>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-white">
-                        <h6 class="text-uppercase">meats & seafood</h6>
+                    <div class="row my-5">
+                        <div class="col-md-4">
+                            <img src="/assets/images/produits-01.webp" class="img-fluid rounded" alt="">
+                            <span class="text-uppercase">ladies finger 500g</span>
+                            <span class="text-white">$350</span>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/assets/images/produits-04.webp" class="img-fluid rounded" alt="">
+                            <span class="text-uppercase">ladies finger 500g</span>
+                            <span class="text-white">$350</span>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/assets/images/produits-03.webp" class="img-fluid rounded" alt="">
+                            <span class="text-uppercase">ladies finger 500g</span>
+                            <span class="text-white">$350</span>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-white">
-                        <h6 class="text-uppercase">bakery</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ############## -->
+    <!-- Products-->
+    <!-- ############## -->
+    <section class="products" id="products">
+        <div class="section-heading">
+            <h2>products</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-02.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
                     </div>
-                    <div class="col-md-3 text-white">
-                        <h6 class="text-uppercase">beverages</h6>
-                    </div>
-                  </div>
-                  <div class="row my-5">
-                  <div class="col-md-4">
-                    <img src="/assets/images/produits-01.webp" class="img-fluid rounded" alt="">
-                    <span class="text-uppercase">ladies finger 500g</span>
-                    <span class="text-white">$350</span>
                     <a href="#" class="btn">add to cart</a>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="/assets/images/produits-04.webp" class="img-fluid rounded" alt="">
-                    <span class="text-uppercase">ladies finger 500g</span>
-                    <span class="text-white">$350</span>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
                     <a href="#" class="btn">add to cart</a>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="/assets/images/produits-03.webp" class="img-fluid rounded" alt="">
-                    <span class="text-uppercase">ladies finger 500g</span>
-                    <span class="text-white">$350</span>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-06.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
                     <a href="#" class="btn">add to cart</a>
-                  </div>
-                  </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-07.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-02.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-06.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/produits-07.webp" class="img-fluid rounded" alt="">
+                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <div class="price">
+                        <span class="text-white">$350</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
                 </div>
             </div>
         </div>
