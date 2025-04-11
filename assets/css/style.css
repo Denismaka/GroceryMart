@@ -8,6 +8,7 @@
 }
 :root {
   --blue: #171933;
+  --black: #000000;
   --white: #fefefefe;
   --red: #bb0000;
 }
@@ -149,7 +150,7 @@ header.sticky {
   padding: 5px 100px;
 }
 header.sticky {
-  background-color: var(--blue_2);
+  background-color: var(--black);
 }
 
 /* Styles pour le menu burger */
@@ -225,6 +226,7 @@ header.sticky {
 #about .container .row .col-md-6 {
   margin-top: 2rem;
 }
+
 #about .container .col-md-6 .thumb {
   position: relative;
 }
@@ -245,4 +247,31 @@ header.sticky {
 }
 #about .container .col-md-6 .thumb a:hover {
   opacity: 0.9;
+}
+#about .container .row .col-md-6:last-child .play-btn {
+  background-color: var(--red);
+  color: var(--white);
+  animation: pulse 2s ease infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--white);
+  }
+  100% {
+    box-shadow: 0 0 0 40px transparent;
+  }
+}
+
+#about .container .row .col-md-6 .row .col-md-3:first-child {
+  background-color: var(--red);
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#about .container .row .col-md-6 .row .col-md-4 img {
+  background-color: var(--red);
+}
+#about .container .row .col-md-6 .row .col-md-4 span {
+  color: var(--red);
 }
