@@ -241,6 +241,49 @@
         </div>
     </section>
 
+    <!-- ############## -->
+    <!-- Footer-->
+    <!-- ############## -->
+    <footer class=" text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#" class="text-uppercase text-white text-decoration-none fs-3 fw-bold">GroceryMart</a>
+                    <p>Nous vendons des produits bio de haute qualité. Découvrez notre gamme et faites le choix d'une consommation responsable.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Liens</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Produits</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Pages</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Adresse</h5>
+                    <p>
+                        <a href="#" class="text-white text-decoration-none"><i class="fas fa-phone"></i><span></span> +243997435030</a> <br>
+                        <a href="#" class="text-white text-decoration-none"><i class="fas fa-envelope"></i><span></span> GroceryMart@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Réseaux sociaux</h5>
+                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-4">&copy; 2025 <a href="#" class="text-decoration-none" style="color: #fefefefe;">Denis Maka</a>, Tous droits réservés.</p>
+    </footer>
+
+
 
 
 
