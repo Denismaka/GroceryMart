@@ -211,6 +211,37 @@
         </div>
     </section>
 
+    <!-- ############## -->
+    <!-- Newsletter-->
+    <!-- ############## -->
+    <section class="newsletter" id="newsletter">
+        <div class="section-heading text-center">
+            <h2>newsletter</h2>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-white text-md-left">
+                    <h2>Restez informé !</h2>
+                    <p>Abonnez-vous à notre newsletter pour recevoir les dernières offres, promotions et nouveautés directement dans votre boîte mail. Ne manquez aucune occasion de faire des économies et de découvrir nos nouveaux produits !</p>
+                </div>
+                <div class="col-md-6">
+                    <form class="d-flex">
+                        <div class="form-group flex-grow-1">
+                            <label for="email">Votre adresse e-mail :</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="email" placeholder="Entrez votre e-mail" required>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-black">S'abonner</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
