@@ -253,7 +253,7 @@
     <!-- ############## -->
     <!-- Footer-->
     <!-- ############## -->
-    <footer class=" text-white py-5">
+    <footer class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -282,14 +282,14 @@
 
                 <div class="col-md-3">
                     <h5>Réseaux sociaux</h5>
-                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="text-white m-2 fs-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white m-1 fs-2"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white m-1 fs-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white m-1 fs-2"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="text-white m-1 fs-2"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
         </div>
-        <p class="text-center mt-4">&copy; 2025 <a href="#" class="text-decoration-none" style="color: #fefefefe;">Denis Maka</a>, Tous droits réservés.</p>
+        <p class="text-center mt-4">&copy; 2025 <a href="#" class="text-decoration-none">Denis Maka</a>, Tous droits réservés.</p>
     </footer>
 
 
