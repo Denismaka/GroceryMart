@@ -46,14 +46,15 @@
     <section class="home" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 mx-4">
+                <div class="col-12 col-md-8 mx-auto text-center">
                     <h5>Commencez vos achats en ligne quotidiens</h5>
                     <h2>Restez chez vous & nous vous livrerons vos besoins quotidiens</h2>
-                    <a href="#" class="btn">Achetez </a>
+                    <a href="#" class="btn btn-primary">Achetez</a>
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <!-- ############## -->
@@ -62,45 +63,45 @@
     <section class="about" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6  mt-4">
+                <div class="col-12 col-md-6 mt-4">
                     <div class="thumb">
                         <a rel="nofollow" href="http://youtube.com" class="play-btn"><i class="fa fa-play"></i></a>
                         <img src="assets/images/about.webp" class="img-fluid rounded" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="row">
-                        <div class="col-md-3 text-white">
-                            <h6 class="text-uppercase">vegetals</h6>
+                        <div class="col-6 col-md-3 text-white">
+                            <h6 class="text-uppercase">Vegetals</h6>
                         </div>
-                        <div class="col-md-3 text-white">
-                            <h6 class="text-uppercase">meats & seafood</h6>
+                        <div class="col-6 col-md-3 text-white">
+                            <h6 class="text-uppercase">Meats & Seafood</h6>
                         </div>
-                        <div class="col-md-3 text-white">
-                            <h6 class="text-uppercase">bakery</h6>
+                        <div class="col-6 col-md-3 text-white">
+                            <h6 class="text-uppercase">Bakery</h6>
                         </div>
-                        <div class="col-md-3 text-white">
-                            <h6 class="text-uppercase">beverages</h6>
+                        <div class="col-6 col-md-3 text-white">
+                            <h6 class="text-uppercase">Beverages</h6>
                         </div>
                     </div>
                     <div class="row my-5">
-                        <div class="col-md-4">
+                        <div class="col-12 col-sm-6 col-md-4 mb-4">
                             <img src="/assets/images/produits-01.webp" class="img-fluid rounded" alt="">
-                            <span class="text-uppercase">ladies finger 500g</span>
+                            <span class="text-uppercase">Ladies Finger 500g</span>
                             <span class="text-white">$350</span>
-                            <a href="#" class="btn">add to cart</a>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-12 col-sm-6 col-md-4 mb-4">
                             <img src="/assets/images/produits-04.webp" class="img-fluid rounded" alt="">
-                            <span class="text-uppercase">ladies finger 500g</span>
+                            <span class="text-uppercase">Ladies Finger 500g</span>
                             <span class="text-white">$350</span>
-                            <a href="#" class="btn">add to cart</a>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-12 col-sm-6 col-md-4 mb-4">
                             <img src="/assets/images/produits-03.webp" class="img-fluid rounded" alt="">
-                            <span class="text-uppercase">ladies finger 500g</span>
+                            <span class="text-uppercase">Ladies Finger 500g</span>
                             <span class="text-white">$350</span>
-                            <a href="#" class="btn">add to cart</a>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -108,82 +109,109 @@
         </div>
     </section>
 
+
     <!-- ############## -->
     <!-- Products-->
     <!-- ############## -->
     <section class="products" id="products">
-        <div class="section-heading">
-            <h2>products</h2>
+        <div class="section-heading text-center">
+            <h2>Products</h2>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-02.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-06.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-07.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <!-- Répétition des produits -->
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-02.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-06.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-6 col-md-3 my-5">
                     <img src="/assets/images/produits-07.webp" class="img-fluid rounded" alt="">
-                    <p class="text-white text-uppercase">ladies finger 500g</p>
+                    <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- ############## -->
+    <!-- Pages-->
+    <!-- ############## -->
+    <section class="pages" id="pages">
+        <div class="section-heading text-center">
+            <h2>Pages</h2>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 my-5 text-center">
+                    <img src="/assets/images/prince.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 my-5 text-center">
+                    <img src="/assets/images/beltexco.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 my-5 text-center">
+                    <img src="/assets/images/swissta.webp" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
     <script src="/assets/scrollreveal/dist/scrollreveal.min.js"></script>
