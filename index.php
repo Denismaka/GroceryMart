@@ -55,12 +55,13 @@
         </div>
     </section>
 
-
-
     <!-- ############## -->
     <!-- About-->
     <!-- ############## -->
     <section class="about" id="about">
+        <div class="section-heading text-center">
+            <h2>about</h2>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 mt-4">
@@ -72,35 +73,43 @@
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="col-6 col-md-3 text-white">
-                            <h6 class="text-uppercase">Vegetals</h6>
+                            <a href="#" class="text-decoration-none text-white">
+                                <h6 class="text-uppercase">Vegetals</h6>
+                            </a>
                         </div>
                         <div class="col-6 col-md-3 text-white">
-                            <h6 class="text-uppercase">Meats & Seafood</h6>
+                            <a href="#" class="text-decoration-none text-white">
+                                <h6 class="text-uppercase">Meats</h6>
+                            </a>
                         </div>
                         <div class="col-6 col-md-3 text-white">
-                            <h6 class="text-uppercase">Bakery</h6>
+                            <a href="#" class="text-decoration-none text-white">
+                                <h6 class="text-uppercase">Bakery</h6>
+                            </a>
                         </div>
                         <div class="col-6 col-md-3 text-white">
-                            <h6 class="text-uppercase">Beverages</h6>
+                            <a href="#" class="text-decoration-none text-white">
+                                <h6 class="text-uppercase">Beverages</h6>
+                            </a>
                         </div>
                     </div>
                     <div class="row my-5">
                         <div class="col-12 col-sm-6 col-md-4 mb-4">
                             <img src="/assets/images/produits-01.webp" class="img-fluid rounded" alt="">
-                            <span class="text-uppercase">Ladies Finger 500g</span>
-                            <span class="text-white">$350</span>
+                            <h3 class="text-uppercase">Ladies Finger 500g</h3>
+                            <h5 class="text-white">$350</h5>
                             <a href="#" class="btn btn-primary">Add to Cart</a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 mb-4">
                             <img src="/assets/images/produits-04.webp" class="img-fluid rounded" alt="">
-                            <span class="text-uppercase">Ladies Finger 500g</span>
-                            <span class="text-white">$350</span>
+                            <h3 class="text-uppercase">Ladies Finger 500g</h3>
+                            <h5 class="text-white">$350</h5>
                             <a href="#" class="btn btn-primary">Add to Cart</a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 mb-4">
-                            <img src="/assets/images/produits-03.webp" class="img-fluid rounded" alt="">
-                            <span class="text-uppercase">Ladies Finger 500g</span>
-                            <span class="text-white">$350</span>
+                            <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
+                            <h3 class="text-uppercase">Ladies Finger 500g</h3>
+                            <h5 class="text-white">$350</h5>
                             <a href="#" class="btn btn-primary">Add to Cart</a>
                         </div>
                     </div>
@@ -118,33 +127,33 @@
             <h2>Products</h2>
         </div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-02.webp" class="img-fluid rounded" alt="">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <img src="/assets/images/produits-07.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-08.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-06.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-07.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-07.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-08.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
@@ -152,32 +161,32 @@
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
                 <!-- Répétition des produits -->
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-02.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-16.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-05.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-20.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-06.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-16.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
                     </div>
                     <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 my-5">
-                    <img src="/assets/images/produits-07.webp" class="img-fluid rounded" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="/assets/images/produits-20.webp" class="img-fluid rounded w-75" alt="">
                     <p class="text-white text-uppercase">Ladies Finger 500g</p>
                     <div class="price">
                         <span class="text-white">$350</span>
@@ -231,7 +240,7 @@
                             <div class="input-group">
                                 <input type="email" class="form-control" id="email" placeholder="Entrez votre e-mail" required>
                                 <div class="input-group-append">
-                                    <button type="submit" class="btn btn-black">S'abonner</button>
+                                    <button type="submit" class="btn">S'abonner</button>
                                 </div>
                             </div>
                         </div>
