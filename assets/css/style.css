@@ -257,8 +257,11 @@ header.sticky {
 /* Products */
 /* ############## */
 #products .container .row {
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   margin-top: 5rem;
+}
+#products .container .row .col-md-3 {
+  margin-bottom: 8rem;
 }
 
 /* ############## */
