@@ -27,53 +27,84 @@
         <!-- ############## -->
         <!-- Header -->
         <!-- ############## -->
-        <header>
-            <a href="index.php" class="logo">
-                <img
-                    src="assets/images/GroceryMart_Logo.webp"
-                    class="img-fluid rounded"
-                />
-                GroceryMart
-            </a>
-            <div class="menu-toggle" id="mobile-menu">
-                <i class="fas fa-bars"></i>
+        <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a
+                    href="index.php"
+                    class="navbar-brand d-flex align-items-center"
+                >
+                    <img
+                        src="assets/images/GroceryMart_Logo.webp"
+                        class="img-fluid rounded me-2"
+                        style="height: 40px"
+                    />
+                    <span class="fw-bold">GroceryMart</span>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                href="index.php#home"
+                                class="nav-link text-capitalize"
+                                >home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="index.php#about"
+                                class="nav-link text-capitalize"
+                                >about</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="index.php#products"
+                                class="nav-link text-capitalize"
+                                >products</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="index.php#pages"
+                                class="nav-link text-capitalize"
+                                >pages</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="index.php#contact"
+                                class="nav-link text-capitalize"
+                                >contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav-list" id="nav-list">
-                <li>
-                    <a href="index.php#home" class="text-capitalize">home</a>
-                </li>
-                <li>
-                    <a href="index.php#about" class="text-capitalize">about</a>
-                </li>
-                <li>
-                    <a href="index.php#products" class="text-capitalize"
-                        >products</a
-                    >
-                </li>
-                <li>
-                    <a href="index.php#pages" class="text-capitalize">pages</a>
-                </li>
-                <li>
-                    <a href="index.php#contact" class="text-capitalize"
-                        >contact</a
-                    >
-                </li>
-            </ul>
         </header>
 
         <!-- ##############  -->
         <!-- Home  -->
         <!-- ##############  -->
-        <section class="home" id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-8 mx-auto text-center">
+        <section class="home py-5 mt-5" id="home">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-8 mx-auto text-center">
                         <h5>Commencez vos achats en ligne quotidiens</h5>
-                        <h2>
+                        <h1 class="display-4 fw-bold mb-4">
                             Restez chez vous & nous vous livrerons vos besoins
                             quotidiens
-                        </h2>
-                        <a href="#" class="btn btn-primary">Achetez</a>
+                        </h1>
+                        <a href="#" class="btn btn-primary btn-lg px-4"
+                            >Achetez</a
+                        >
                     </div>
                 </div>
             </div>
@@ -82,104 +113,122 @@
         <!-- ############## -->
         <!-- About-->
         <!-- ############## -->
-        <section class="about" id="about">
-            <div class="section-heading text-center">
-                <h2>about</h2>
-            </div>
+        <section class="about py-5" id="about">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 mt-4">
-                        <div class="thumb">
+                <div class="section-heading text-center mb-5">
+                    <h2 class="display-5 fw-bold">About</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <div class="thumb position-relative">
                             <a
-                                rel="nofollow"
                                 href="http://youtube.com"
-                                class="play-btn"
-                                ><i class="fa fa-play"></i
-                            ></a>
+                                class="play-btn position-absolute top-50 start-50 translate-middle"
+                            >
+                                <i class="fa fa-play fa-2x"></i>
+                            </a>
                             <img
                                 src="assets/images/about.webp"
-                                class="img-fluid rounded"
-                                alt=""
+                                class="img-fluid rounded shadow"
+                                alt="About GroceryMart"
                             />
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="row">
-                            <div class="col-6 col-md-3 text-white">
+                    <div class="col-12 col-lg-6">
+                        <div class="row g-2 mb-4">
+                            <div class="col-6 col-md-3">
                                 <a
                                     href="#"
-                                    class="text-decoration-none text-white"
+                                    class="btn btn-outline-primary w-100 text-uppercase"
                                 >
-                                    <h6 class="text-uppercase">Vegetals</h6>
+                                    Vegetals
                                 </a>
                             </div>
-                            <div class="col-6 col-md-3 text-white">
+                            <div class="col-6 col-md-3">
                                 <a
                                     href="#"
-                                    class="text-decoration-none text-white"
+                                    class="btn btn-outline-primary w-100 text-uppercase"
                                 >
-                                    <h6 class="text-uppercase">Meats</h6>
+                                    Meats
                                 </a>
                             </div>
-                            <div class="col-6 col-md-3 text-white">
+                            <div class="col-6 col-md-3">
                                 <a
                                     href="#"
-                                    class="text-decoration-none text-white"
+                                    class="btn btn-outline-primary w-100 text-uppercase"
                                 >
-                                    <h6 class="text-uppercase">Bakery</h6>
+                                    Bakery
                                 </a>
                             </div>
-                            <div class="col-6 col-md-3 text-white">
+                            <div class="col-6 col-md-3">
                                 <a
                                     href="#"
-                                    class="text-decoration-none text-white"
+                                    class="btn btn-outline-primary w-100 text-uppercase"
                                 >
-                                    <h6 class="text-uppercase">Beverages</h6>
+                                    Beverages
                                 </a>
                             </div>
                         </div>
-                        <div class="row my-5">
-                            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img
-                                    src="assets/images/produits-01.webp"
-                                    class="img-fluid rounded"
-                                    alt=""
-                                />
-                                <h3 class="text-uppercase">
-                                    Ladies Finger 500g
-                                </h3>
-                                <h5 class="text-white">$350</h5>
-                                <a href="#" class="btn btn-primary"
-                                    >Add to Cart</a
-                                >
+                        <div class="row g-4 d-none d-md-flex">
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="card h-100 shadow-sm">
+                                    <img
+                                        src="assets/images/produits-01.webp"
+                                        class="card-img-top"
+                                        alt="Product"
+                                    />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase">
+                                            Ladies Finger 500g
+                                        </h5>
+                                        <p class="text-muted fw-bold">$350</p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-primary w-100"
+                                            >Add to Cart</a
+                                        >
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img
-                                    src="assets/images/produits-04.webp"
-                                    class="img-fluid rounded"
-                                    alt=""
-                                />
-                                <h3 class="text-uppercase">
-                                    Ladies Finger 500g
-                                </h3>
-                                <h5 class="text-white">$350</h5>
-                                <a href="#" class="btn btn-primary"
-                                    >Add to Cart</a
-                                >
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="card h-100 shadow-sm">
+                                    <img
+                                        src="assets/images/produits-04.webp"
+                                        class="card-img-top"
+                                        alt="Product"
+                                    />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase">
+                                            Ladies Finger 500g
+                                        </h5>
+                                        <p class="text-muted fw-bold">$350</p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-primary w-100"
+                                            >Add to Cart</a
+                                        >
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img
-                                    src="assets/images/produits-05.webp"
-                                    class="img-fluid rounded"
-                                    alt=""
-                                />
-                                <h3 class="text-uppercase">
-                                    Ladies Finger 500g
-                                </h3>
-                                <h5 class="text-white">$350</h5>
-                                <a href="#" class="btn btn-primary"
-                                    >Add to Cart</a
-                                >
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="card h-100 shadow-sm">
+                                    <img
+                                        src="assets/images/produits-05.webp"
+                                        class="card-img-top"
+                                        alt="Product"
+                                    />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase">
+                                            Ladies Finger 500g
+                                        </h5>
+                                        <p class="text-muted fw-bold">$350</p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-primary w-100"
+                                            >Add to Cart</a
+                                        >
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -190,124 +239,170 @@
         <!-- ############## -->
         <!-- Products-->
         <!-- ############## -->
-        <section class="products" id="products">
-            <div class="section-heading text-center">
-                <h2>Products</h2>
-            </div>
+        <section class="products py-5" id="products">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-07.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+                <div class="section-heading text-center mb-5">
+                    <h2 class="display-5 fw-bold">Products</h2>
+                </div>
+                <div class="row g-4">
+                    <!-- Produit 1 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-07.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-08.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 2 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-08.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-07.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 3 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-07.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-08.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 4 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-08.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <!-- Répétition des produits -->
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-16.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 5 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-16.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-20.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 6 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-20.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-16.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 7 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-16.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <img
-                            src="assets/images/produits-20.webp"
-                            class="img-fluid rounded w-75"
-                            alt=""
-                        />
-                        <p class="text-white text-uppercase">
-                            Ladies Finger 500g
-                        </p>
-                        <div class="price">
-                            <span class="text-white">$350</span>
+
+                    <!-- Produit 8 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img
+                                src="assets/images/produits-20.webp"
+                                class="card-img-top"
+                                alt="Product"
+                            />
+                            <div class="card-body text-center">
+                                <p class="text-uppercase mb-2">
+                                    Ladies Finger 500g
+                                </p>
+                                <p class="text-muted fw-bold">$350</p>
+                                <a href="#" class="btn btn-primary w-100"
+                                    >Add to Cart</a
+                                >
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
                 </div>
             </div>
@@ -316,32 +411,38 @@
         <!-- ############## -->
         <!-- Pages-->
         <!-- ############## -->
-        <section class="pages" id="pages">
-            <div class="section-heading text-center">
-                <h2>Pages</h2>
-            </div>
+        <section class="pages py-5" id="pages">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-6 col-md-4 my-5 text-center">
-                        <img
-                            src="assets/images/prince.webp"
-                            class="img-fluid rounded"
-                            alt=""
-                        />
+                <div class="section-heading text-center mb-5">
+                    <h2 class="display-5 fw-bold">Pages</h2>
+                </div>
+                <div class="row justify-content-center g-4">
+                    <div class="col-8 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card border-0 bg-transparent">
+                            <img
+                                src="assets/images/prince.webp"
+                                class="card-img rounded shadow"
+                                alt="Partner"
+                            />
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 my-5 text-center">
-                        <img
-                            src="assets/images/beltexco.webp"
-                            class="img-fluid rounded"
-                            alt=""
-                        />
+                    <div class="col-8 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card border-0 bg-transparent">
+                            <img
+                                src="assets/images/beltexco.webp"
+                                class="card-img rounded shadow"
+                                alt="Partner"
+                            />
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 my-5 text-center">
-                        <img
-                            src="assets/images/swissta.webp"
-                            class="img-fluid rounded"
-                            alt=""
-                        />
+                    <div class="col-8 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card border-0 bg-transparent">
+                            <img
+                                src="assets/images/swissta.webp"
+                                class="card-img rounded shadow"
+                                alt="Partner"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -350,15 +451,12 @@
         <!-- ############## -->
         <!-- Newsletter-->
         <!-- ############## -->
-        <section class="newsletter" id="newsletter">
-            <div class="section-heading text-center">
-                <h2>newsletter</h2>
-            </div>
+        <section class="newsletter py-5 text-white" id="newsletter">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 text-white text-md-left">
-                        <h2>Restez informé !</h2>
-                        <p>
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2 class="fw-bold mb-3">Restez informé !</h2>
+                        <p class="mb-0">
                             Abonnez-vous à notre newsletter pour recevoir les
                             dernières offres, promotions et nouveautés
                             directement dans votre boîte mail. Ne manquez aucune
@@ -367,25 +465,20 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <form class="d-flex">
-                            <div class="form-group flex-grow-1">
-                                <label for="email"
-                                    >Votre adresse e-mail :</label
+                        <form>
+                            <div class="input-group">
+                                <input
+                                    type="email"
+                                    class="form-control form-control-lg"
+                                    placeholder="Entrez votre e-mail"
+                                    required
+                                />
+                                <button
+                                    type="submit"
+                                    class="btn btn-dark btn-lg px-4"
                                 >
-                                <div class="input-group">
-                                    <input
-                                        type="email"
-                                        class="form-control"
-                                        id="email"
-                                        placeholder="Entrez votre e-mail"
-                                        required
-                                    />
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn">
-                                            S'abonner
-                                        </button>
-                                    </div>
-                                </div>
+                                    S'abonner
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -396,54 +489,62 @@
         <!-- ############## -->
         <!-- Footer-->
         <!-- ############## -->
-        <footer class="py-5">
+        <footer class="py-5 text-white">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
                         <a
                             href="#"
-                            class="text-uppercase text-white text-decoration-none fs-3 fw-bold"
-                            >GroceryMart</a
+                            class="d-flex align-items-center text-decoration-none mb-3"
                         >
-                        <p>
+                            <img
+                                src="assets/images/GroceryMart_Logo.webp"
+                                class="img-fluid rounded me-2"
+                                style="height: 40px"
+                            />
+                            <span class="fs-3 fw-bold text-white"
+                                >GroceryMart</span
+                            >
+                        </a>
+                        <p class="mb-0">
                             Nous vendons des produits bio de haute qualité.
                             Découvrez notre gamme et faites le choix d'une
                             consommation responsable.
                         </p>
                     </div>
 
-                    <div class="col-md-3">
-                        <h5>Liens</h5>
+                    <div class="col-md-6 col-lg-2 offset-lg-1">
+                        <h5 class="mb-3">Liens</h5>
                         <ul class="list-unstyled">
-                            <li>
+                            <li class="mb-2">
                                 <a
                                     href="#"
                                     class="text-white text-decoration-none"
                                     >Home</a
                                 >
                             </li>
-                            <li>
+                            <li class="mb-2">
                                 <a
                                     href="#"
                                     class="text-white text-decoration-none"
                                     >About</a
                                 >
                             </li>
-                            <li>
+                            <li class="mb-2">
                                 <a
                                     href="#"
                                     class="text-white text-decoration-none"
                                     >Produits</a
                                 >
                             </li>
-                            <li>
+                            <li class="mb-2">
                                 <a
                                     href="#"
                                     class="text-white text-decoration-none"
                                     >Pages</a
                                 >
                             </li>
-                            <li>
+                            <li class="mb-2">
                                 <a
                                     href="#"
                                     class="text-white text-decoration-none"
@@ -453,43 +554,56 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-3">
-                        <h5>Adresse</h5>
-                        <p>
-                            <a href="#" class="text-white text-decoration-none"
-                                ><i class="fas fa-phone"></i
-                                ><span></span> +243997435030</a
-                            >
-                            <br />
-                            <a href="#" class="text-white text-decoration-none"
-                                ><i class="fas fa-envelope"></i
-                                ><span></span> GroceryMart@gmail.com</a
-                            >
-                        </p>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="mb-3">Adresse</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a
+                                    href="#"
+                                    class="text-white text-decoration-none"
+                                >
+                                    <i class="fas fa-phone me-2"></i
+                                    >+243997435030
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-white text-decoration-none"
+                                >
+                                    <i class="fas fa-envelope me-2"></i
+                                    >GroceryMart@gmail.com
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div class="col-md-3">
-                        <h5>Réseaux sociaux</h5>
-                        <a href="#" class="text-white m-1 fs-2"
-                            ><i class="fab fa-facebook"></i
-                        ></a>
-                        <a href="#" class="text-white m-1 fs-2"
-                            ><i class="fab fa-instagram"></i
-                        ></a>
-                        <a href="#" class="text-white m-1 fs-2"
-                            ><i class="fab fa-whatsapp"></i
-                        ></a>
-                        <a href="#" class="text-white m-1 fs-2"
-                            ><i class="fab fa-twitter"></i
-                        ></a>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="mb-3">Réseaux sociaux</h5>
+                        <div class="d-flex">
+                            <a href="#" class="text-white me-3 fs-4">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-white me-3 fs-4">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-white me-3 fs-4">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" class="text-white fs-4">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <hr class="my-4 bg-secondary" />
+                <p class="text-center mb-0">
+                    &copy; 2025
+                    <a href="#" class="text-decoration-none text-white"
+                        >Denis Maka</a
+                    >, Tous droits réservés.
+                </p>
             </div>
-            <p class="text-center mt-4">
-                &copy; 2025
-                <a href="#" class="text-decoration-none">Denis Maka</a>, Tous
-                droits réservés.
-            </p>
         </footer>
 
         <script src="assets/scrollreveal/dist/scrollreveal.min.js"></script>
